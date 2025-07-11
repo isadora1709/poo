@@ -16,8 +16,8 @@ public class Conta {
 
     public void exibir() {
         System.out.println("========= dados bancarios ========");
-        System.out.println("cliente:" + getnometitular());
-        System.out.println("numero da conta:" + getnumeroconta());
+        System.out.println("cliente:" + this.nometitular);
+        System.out.println("numero da conta:" + this.numeroconta);
         System.out.println("conta esta ativa?" + getstatus());
         System.out.println("==============================");
     }
